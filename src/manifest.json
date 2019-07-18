@@ -1,9 +1,9 @@
 {
-  "name": "AutoFill Forms",
+  "name": "AutoFill Forms Fork",
   "short_name": "iafforms",
   "description": "One click form filler that supports multiple profiles",
-  "author": "Sarah Avilov",
-  "version": "0.3.1",
+  "author": "Doron Behar",
+  "version": "0.3.2",
   "manifest_version": 2,
   "permissions": [
     "storage",
@@ -22,14 +22,13 @@
     "default_popup": "data/popup/index.html"
   },
   "background": {
-    "persistent": false,
+    "persistent": true,
     "scripts": [
       "lib/regtools.js",
       "lib/defaults.js",
       "lib/background.js"
     ]
   },
-  "homepage_url": "http://add0n.com/autofillforms-e10s.html",
   "icons": {
     "16": "data/icons/16.png",
     "48": "data/icons/48.png",
